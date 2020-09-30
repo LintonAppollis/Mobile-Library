@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".edit_data">
+
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Book "
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Book Initial"
+            android:id="@+id/txt_initial"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_style2"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Surname"
+            android:background="@drawable/edittext_style2"
+            android:id="@+id/txt_surname"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Book Ttile"
+            android:id="@+id/txt_book_title"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_style2"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Book Edition"
+            android:id="@+id/txt_book_edition"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_style2"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Book ISBN"
+            android:id="@+id/txt_book_isbn"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_style2"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:hint="Cancel Edit"
+            android:id="@+id/btn_cancel"
+            android:layout_weight="1"
+
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+
+        <Button
+
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:hint="Save"
+            android:id="@+id/btn_update"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="13dp"
+            android:inputType="text" />
+    </LinearLayout>
+
+</LinearLayout>
